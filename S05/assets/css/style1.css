@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: iransans ;
+    src: url(../fonts/IRANSansWeb.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* (* or body) */
+body, * {
+    font-family: iransans, arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    display: inline-block;
+    min-width: 100px;
+
+}
+
+.btn {
+    background-color: rgb(154, 7, 184);
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    padding: 7px;
+}
+
+form>div{
+    margin: 10px 2px;
+}
+
+.form-area {
+    background-color: aliceblue;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
