@@ -1,0 +1,10 @@
+
+.form-control {
+    width: 95%;
+}
+
+form>div {
+    padding-top: 1.2%;
+}
+
+/* we can also give 2, 3 or 4 numbers. */
