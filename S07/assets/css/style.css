@@ -1,0 +1,22 @@
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.d-flex>div>img {
+    border-radius: 400px;
+    border: 5px solid purple;
+    padding: 7px;
+    margin: 5px;
+}
+
+.d-flex>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
