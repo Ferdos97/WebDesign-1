@@ -1,0 +1,45 @@
+/* .grid-box {
+    display: grid;
+    grid-template-columns: auto auto auto; /* هرکدوم یک سوم جا میگیره/ سه تیکه کنار هم و فاصله‌های برابر */
+/* gap: 20px; */
+/* row-gap: 20px; */
+/* column-gap: 20px; */
+/* } */
+
+
+.grid-box>div,
+.flex-box>div {
+    border: 2px solid black;
+}
+
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 520px) {
+    .grid-box {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 521px) and (max-width: 720px) {
+    .grid-box {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 721px) {
+    .grid-box {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+}
