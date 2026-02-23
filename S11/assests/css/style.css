@@ -1,0 +1,90 @@
+/* 
+ul>li:first-child {
+    color: rgb(48, 14, 202);
+}
+
+
+ul>li:last-child {
+    color: rgb(11, 185, 185);
+} */
+
+
+/* ul>li:nth-child(3) {
+    color: rgb(214, 38, 97);
+} */
+
+/* ul>li:nth-child(2) {
+    color: rgb(43, 236, 124);
+} */
+
+
+/* ul>li:nth-child(4) {
+    color: rgb(243, 123, 163);
+} */
+
+
+/* button:hover {
+    cursor: pointer;
+    background-color: rgb(243, 165, 243);
+} */
+
+/* input:focus {
+    background-color: rgb(241, 165, 137);
+} */
+
+/* p::first-letter {
+    font-size: 80px;
+} */
+
+/* p::first-line {
+    color: rgb(190, 11, 190);
+} */
+
+/* p::selection {
+    background-color: rgb(156, 247, 247);
+} */
+
+
+/* ::marker {
+    color: black;
+} */
+
+
+/* div,p {
+    background-color: rgb(243, 156, 156);
+} */
+
+
+
+body>div>p:first-child {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+
+div>p>:nth-child(2) {
+    opacity: 60%;
+    font-size: 0.9rem;
+    color: violet
+}
+
+
+div>div>p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+
+body>div>p:last-child {
+    display: inline-block;
+    background-color: rgb(187, 11, 128);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+body>div>p:last-child:hover {
+    background-color: rgb(120, 161, 238);
+}
