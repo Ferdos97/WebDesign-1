@@ -84,7 +84,6 @@ body>div>p:last-child {
     cursor: pointer;
 }
 
-
 body>div>p:last-child:hover {
     background-color: rgb(120, 161, 238);
 }
