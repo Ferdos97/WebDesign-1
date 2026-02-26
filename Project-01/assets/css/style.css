@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+padding: 0px;}
+
+/* ----------------------------- */
+
+.p-10 {
+    padding: 15px 40px;
+}
+
+/* ----------------------------- */
+
+.brand {
+    color: rgb(86, 24, 148);
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ----------------------------- */
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+/* ----------------------------- */
+
+.profile-img {
+width: 60px;
+height: 60px;
+object-fit: cover;
+
+}
+
+/* ----------------------------- */
+
+.d-flex {
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+/* ----------------------------- */
+
+.flex-row {
+    flex-direction: row;
+}
+
+/* ----------------------------- */
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* ----------------------------- */
+
+.item-center {
+    align-items: center;
+}
+
+/* ----------------------------- */
+
+.nav-links a {
+    padding: 12px 10px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+/* -------------------------------- */
+
+.nav-links a:hover {
+    cursor: pointer;
+    background-color: rgb(214, 145, 248);
+    /* transform: translateY(-2px); */
+}
+
+/* -------------------------------- */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------- */
+
+.bg-blue {
+    background-color: rgb(188, 252, 230);
+}
